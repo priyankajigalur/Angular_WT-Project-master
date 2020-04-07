@@ -1,0 +1,8 @@
+.head1{
+    background-color: rgb(190, 190, 190);
+    /* border-left: white; */
+    border-left: 550px solid white;
+    border-right: 550px solid white;
+    padding: 1mm;
+  
+}

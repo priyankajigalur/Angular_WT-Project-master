@@ -16,20 +16,21 @@
         <!-- (click)="onclick()" -->
         <div id="sidebar" onclick="togglemenu()" >
 
-            <div class="toggle-btn">
+            <div class="toggle-btn" >
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
                 <ul>
                     <li [ngStyle]="{'color':'white'}" ><a href="/home">Home</a></li>
-                    <li>Contact Us</li>
+                    <li><a href="/contact">Contact Us</a></li>
                     <li>Gallery</li>
                     <li><a href="/terms">Terms</a></li>
+                    <li><a href="/policy">Policy</a></li>
                     <li><a href="/feed">Feedback</a></li>
                 </ul>
         </div>        
-        <div class="main">
+        <div class="main" >
             <div class="logo">
                 <img src="../assets/logo.jpg" alt="Logo">
             </div>
@@ -40,6 +41,7 @@
             <li><a data-toggle="modal" data-target="#modalLRForm">Login </a></li>
             </ul>
         </div>
+
 
 
 
@@ -67,12 +69,17 @@
             </li>
           </ul>
   
-          <!-- Tab panels -->
+
+
+
+
+
+
+
           <div class="tab-content">
             <!--Panel 7-->
             <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
-  
-              <!--Body-->
+                <!--Body-->
               <div class="modal-body mb-1">
                 <div class="md-form form-sm mb-5">
                   <i class="fas fa-envelope prefix"></i>

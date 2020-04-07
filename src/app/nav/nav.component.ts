@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 // declare const togglemenu : any;
 
 @Component({

@@ -9,7 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { TermComponent } from './term/term.component';
-
+import { PolicyComponent } from './policy/policy.component';
+import { ContactComponent } from './contact/contact.component';
+import { ModalComponent } from './modal/modal.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -21,13 +24,16 @@ import { TermComponent } from './term/term.component';
     HomeComponent,
     RegisterComponent,
     FeedbackComponent,
-    TermComponent
+    TermComponent,
+    PolicyComponent,
+    ContactComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent, LoginComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
